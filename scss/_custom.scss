@@ -1,1 +1,90 @@
-$blue: red;
+body {
+	background-color: #fff5d0;
+}
+.img-fluid {
+  height: 80vh;
+}
+
+/* Our Portfolio Section
+--------------------------------*/
+#Artists {
+  background: #fff;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color:#fff0b9;
+}
+#Artists h1 {
+	background-color: #ffcd17;
+}
+
+#Artists .portfolio-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#Artists .portfolio-item {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+#Artists .portfolio-item .img-fluid {
+  max-width: 100%;
+  height: 30vh;
+}
+
+
+
+#Artists .portfolio-item h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#Artists .portfolio-item img {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  width: 100%;
+}
+
+#Artists .portfolio-item:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#Artists .portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#Artists .portfolio-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+#Tickets {
+	background-color: #ffd745;
+}
+
+footer {
+	background-color:#4c4c4c;
+}
