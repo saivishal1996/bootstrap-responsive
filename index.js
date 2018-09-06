@@ -1,2 +1,16 @@
 import 'bootstrap';
 import './scss/index.scss';
+import './img/artist1.jpeg';
+import './img/artist2.jpg';
+import './img/artist3.jpeg';
+import './img/artist4.jpg';
+import './img/artist5.jpg';
+import './img/artist6.jpg';
+import './img/artist7.jpeg';
+import './img/artist8.jpg';
+import './img/favicon.png';
+import './img/sunburn.jpg';
+import './img/sunburn1.jpeg';
+import './img/sunburn2.jpg';
+import './img/sunburn3.jpg';
+import './img/sunburn4.jpg';
