@@ -1,5 +1,6 @@
 body {
 	background-color: #fff5d0;
+	position: relative;
 }
 .img-fluid {
   height: 80vh;
@@ -16,6 +17,7 @@ body {
 	background-color:#fff0b9;
 }
 #Artists h1 {
+	padding : 1rem;
 	background-color: #ffcd17;
 }
 
@@ -82,9 +84,38 @@ body {
 
 
 #Tickets {
-	background-color: #ffd745;
+	background-color: #fff0c4;
+	margin-top:2rem;
+	padding:2rem 3rem;
+	max-width : 90vw;
 }
 
+#Tickets .tickets_info {
+	padding:2rem;
+	background-color: #fff6d9;
+}
+
+
+
+#Tickets .form-control {
+	background-color : #fff6d9;
+}
+
+
+
+#DetailsModal .modal-content {
+	background-color: #f4d1b5;
+}
 footer {
-	background-color:#4c4c4c;
+	background-color:#f2f2f2;
+}
+
+
+#About {
+	padding: 1rem 0;
+}
+
+#About .about_info {
+	padding:2rem;
+	background-color: #fffae7;
 }

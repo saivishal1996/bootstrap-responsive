@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top d-flex">
@@ -201,10 +201,10 @@
 
 
 
-<div id="Tickets" class="container-fluid">
+<div id="Tickets" class="container">
     <div class="row">
 
-      <div class="col-md-4 col-md-offset-2">
+      <div class=" tickets_info col-md-5 col-xs-12">
 
         <h1>Tickets</h1>
          <p>On entering a new year, Sunburn is looking at creating an array of experiences that will give dance music enthusiasts memories that last a lifetime. The festival experience is also going to be enhanced with new technologies & stage designs & themes which will redefine the way entertainment and live music is consumed in the country. </p>
@@ -212,9 +212,9 @@
 
 
       </div>
-      <div class="clearfix visible-xs"></div>
+      <div class="col-md-2"> </div>
 
-      <div class="col-md-4 col-md-offset-2">
+      <div class="col-md-5 col-xs-12">
           <form>
           <fieldset>
             <legend>Book Your Tickets</legend>
@@ -238,53 +238,52 @@
               </select>
             </div>
          
-            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#DetailsModal">Submit</button>
+            
+
+              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#DetailsModal">
+              Submit
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="DetailsModal" tabindex="-1" role="dialog" aria-labelledby="DetailsModalitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="DetailsModalLongTitle">Ticket Details</h5>
+                  </div>
+                  <div class="modal-body">
+                    Submitted successfully. We will send you the details shortly.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </fieldset>
         </form>
     </div>
   </div>
 </div>
 
+<hr class = "featurette-divider">
 
-
-<div class="modal" id = "DetailsModal">
-  <div class="modal-dialog" role="dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  </div>
- 
-</div>
-<div id="About" class="container">
+<div id="About" class="container ">
   <div class="row ">
-    <div class="col-md-6 ">
+    <div class="col-md-5 about_info">
   <h1>About</h1>
   <p>Sunburn Festival is India's premier electronic music festival hosting Asia's largest ‘4-day’ Electronic Music Festival. The first Sunburn festival was held in Goa, India in 2007. Artists like Martin Garrix, Dimitri Vegas and Like Mike, Afrojack, Tiesto, DJ Snake, KSHMR ,Hardwell and many more have performed in this festival.</p>
   <p>Asia’s biggest dance music festival,Sunburn has been organizing the most loved music festivals since 11 years, that have made a mark in the EDM history of India. </p>
   <p> Over 200 hours of Music featuring Trance, House, Electro, Techno, Drum & Bass, Psy-trance, and Experimental – whatever you want, you can get! </p>
   </div>
-
-<div class="col-md-6 mb-10">
+<div class="col-md-1 clearfix"></div>
+<div class="col-md-6 d-flex align-items-center">
   
 
 
-  <img  class = " w-100 h-100"src = "img/sunburn.jpg" alt = "SunBurn">
+  <img  class = " w-100 align-items-center"src = "img/sunburn.jpg" alt = "SunBurn">
 </div>
 
 
