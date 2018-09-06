@@ -1,0 +1,15 @@
+$general_padding : 2rem;
+
+#About {
+	padding: $general_padding;
+	text-align: center;
+
+	.img-fluid {
+		height:80%;
+	}
+
+	.about_info {
+		padding:$general_padding;
+		background-color: #fffae7;
+	}
+}

@@ -2,120 +2,22 @@ body {
 	background-color: #fff5d0;
 	position: relative;
 }
+
 .img-fluid {
   height: 80vh;
-}
-
-/* Our Portfolio Section
---------------------------------*/
-#Artists {
-  background: #fff;
 }
 
 .jumbotron {
 	text-align: center;
 	background-color:#fff0b9;
 }
-#Artists h1 {
-	padding : 1rem;
-	background-color: #ffcd17;
+
+#DetailsModal {
+	.modal-content {
+		background-color: #f4d1b5;
+	}
 }
 
-#Artists .portfolio-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
-
-#Artists .portfolio-item {
-  overflow: hidden;
-  position: relative;
-  padding: 0;
-  vertical-align: middle;
-  text-align: center;
-}
-
-
-#Artists .portfolio-item .img-fluid {
-  max-width: 100%;
-  height: 30vh;
-}
-
-
-
-#Artists .portfolio-item h2 {
-  color: #ffffff;
-  font-size: 24px;
-  margin: 0;
-  text-transform: capitalize;
-  font-weight: 700;
-}
-
-#Artists .portfolio-item img {
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-  width: 100%;
-}
-
-#Artists .portfolio-item:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#Artists .portfolio-item:hover .portfolio-overlay {
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-#Artists .portfolio-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-
-#Tickets {
-	background-color: #fff0c4;
-	margin-top:2rem;
-	padding:2rem 3rem;
-	max-width : 90vw;
-}
-
-#Tickets .tickets_info {
-	padding:2rem;
-	background-color: #fff6d9;
-}
-
-
-
-#Tickets .form-control {
-	background-color : #fff6d9;
-}
-
-
-
-#DetailsModal .modal-content {
-	background-color: #f4d1b5;
-}
 footer {
 	background-color:#f2f2f2;
-}
-
-
-#About {
-	padding: 1rem 0;
-}
-
-#About .about_info {
-	padding:2rem;
-	background-color: #fffae7;
 }

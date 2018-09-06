@@ -1,0 +1,19 @@
+$general_padding : 2rem;
+
+#Tickets {
+	background-color: #fff0c4;
+	margin-top:2rem;
+	padding: $general_padding;
+	max-width : 90vw;
+
+
+	.tickets_info {
+		text-align:center;
+		padding:$general_padding;
+		background-color: #fff5d9;
+	}
+
+	.form-control {
+		background-color : #fff5d9;
+	}
+}
